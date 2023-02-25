@@ -1,7 +1,15 @@
+import Input from "./components/Input";
+
+import React, { useState } from 'react'
 
 function App() {
+ 
+ 
+  
   return (
-    <h1>Hello my friends</h1>
+    <>
+      <Input />
+    </>
   );
 }
 
