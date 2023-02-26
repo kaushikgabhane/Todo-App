@@ -27,8 +27,12 @@ function Input() {
       </button>
 
       <div>
+       
         {todo.map((t)=>(
-          <p style={{height : "100px",width : "200px", backgroundColor: "#4d4d4d"}} key={t}>{t}</p>
+          <>
+            <textarea style={{resize : "none",height : "100px",width : "200px", backgroundColor: "#4d4d4d"}} key={t}>{t}</textarea>
+            <i className="fa-solid fa-trash"></i>
+          </>
         ))}
       </div>
     </div>
